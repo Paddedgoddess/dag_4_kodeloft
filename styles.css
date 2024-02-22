@@ -10,14 +10,20 @@ body {
 }
 
 header {
-    background-color: bisque;
+    min-height: 100vh;
+    background-image: url("images/starry.jpg");
+    background-size: 160%;
 }
 
 main {
     flex-grow: 1;
-    background-color: indianred;
+    background-image: url("images/flowers.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    color: antiquewhite;
 }
 
 footer{
     background-color: bisque;
+    min-height: 30vh;
 }
